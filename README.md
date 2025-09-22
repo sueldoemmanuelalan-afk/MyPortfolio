@@ -7,7 +7,7 @@ Actualmente es una **base sólida** que iré completando con imágenes, enlaces 
 
 ## 🚀 Demo en vivo
 Podés verlo online gracias a **GitHub Pages** 👉  
-➡️ [https://TU-USUARIO.github.io/mi-portfolio/](https://sueldoemmanuelalan-afk.github.io/mi-portfolio/)
+➡️ [https://TU-USUARIO.github.io/mi-portfolio/](https://sueldoemmanuelalan-afk.github.io/MyPortfolio)
 
 
 
@@ -44,7 +44,7 @@ En breve agregaré imágenes de la versión final.
 ## 💡 Cómo clonar el proyecto
 Si querés ejecutarlo en tu computadora:
 ```bash
-git clone https://github.com/TU-USUARIO/mi-portfolio.git
+git clone https://github.com/TU-USUARIO/MyPortfolio.git
 cd mi-portfolio
 # Abrir index.html con Live Server o un servidor local
 
