@@ -36,26 +36,29 @@ navLinks.forEach((link) => {
 // === Modo Oscuro / Claro con Persistencia ===
 const darkModeBtn = document.querySelector('.dark-mode');
 
-if (darkModeBtn) {
-  // Cambia el tema al hacer click
-  darkModeBtn.addEventListener('click', () => {
-    document.body.classList.toggle('light-theme');
-    const newTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
-    localStorage.setItem('theme', newTheme);
-  });
+// Cambia el tema al hacer click
+darkModeBtn.addEventListener('click', () => {
+  document.body.classList.toggle('light-theme');
 
-  // Carga el tema guardado o detecta preferencia del sistema
-  window.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      if (savedTheme === 'light') document.body.classList.add('light-theme');
-    } else {
-      if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-        document.body.classList.add('light-theme');
-      }
+  // Guarda el tema actual en localStorage
+  const newTheme = document.body.classList.contains('light-theme') ? 'light' : 'dark';
+  localStorage.setItem('theme', newTheme);
+});
+
+// Carga el tema guardado o detecta preferencia del sistema
+window.addEventListener('DOMContentLoaded', () => {
+  const savedTheme = localStorage.getItem('theme');
+
+  if (savedTheme) {
+    // Si el usuario ya eligió un tema, usarlo
+    if (savedTheme === 'light') document.body.classList.add('light-theme');
+  } else {
+    // Si no hay tema guardado, usar el del sistema
+    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+      document.body.classList.add('light-theme');
     }
-  });
-}
+  }
+});
 
 // === Lightbox para certificados ===
 function openModal(src) {

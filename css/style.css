@@ -24,7 +24,7 @@ body.light-theme {
   --bg-color: #e3e6ff;
   --second-bg-color: #daddfd;
   --text-color: #1a1a1a;
-  --main-color: #63bbf5;
+  --main-color: #14a0e0;
   --accent-color: #262727;
 }
 
@@ -129,7 +129,7 @@ body.light-theme #sun-icon {
   left: 0;
   width: 100%;
   padding-right: 10rem;
-  background: rgb(0, 0, 0, 0.3);
+  background: rgb(0, 0, 0, 0.6);
   backdrop-filter: blur(15px);
   display: flex;
   justify-content: space-between;
@@ -166,7 +166,7 @@ body.light-theme #sun-icon {
 .navbar a {
   font-size: 1.8rem;
   color: var(--text-color);
-  font-weight: 400;
+  font-weight: 600;
   transition: 0.3s ease;
   border-bottom: 2px solid transparent;
   padding: 0.5rem 1rem;
