@@ -7,7 +7,7 @@ Actualmente es una **base sólida** que iré completando con imágenes, enlaces 
 
 ## 🚀 Demo en vivo
 Podés verlo online gracias a **GitHub Pages** 👉  
-➡️ [https://TU-USUARIO.github.io/mi-portfolio/](https://sueldoemmanuelalan-afk.github.io/MyPortfolio)
+➡️ https://sueldoemmanuelalan-afk.github.io/MyPortfolio
 
 
 
